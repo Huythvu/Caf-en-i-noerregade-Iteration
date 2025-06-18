@@ -54,7 +54,9 @@ main {
   margin-inline: 20px;
 }
 h1{
-  margin-block: var(--mobile-spacing-md);
+  margin-bottom: var(--mobile-spacing-md);
+  padding-top: 80px; /* For sticky nav 64px + 16px nav and normal margin top */
+
 } 
 p, h2, h3, h4{
   margin-bottom: var(--mobile-spacing-sm);
