@@ -130,6 +130,9 @@
   margin-bottom: var(--mobile-spacing-sm);
   font-size: var(--mobile-body);
 }
+.h1-spisekort, .h1-drikkekort{
+  margin-top: 16px;
+}
 
 /*  */
 /* Social Ansvar */
@@ -150,7 +153,8 @@
 /* Mad med kærlighed */
 /*  */
 .madMedKaerlighedCardImage img{ 
-  aspect-ratio: 1/1;
+  aspect-ratio: 1.5/1;
+  object-fit: cover;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
 }
