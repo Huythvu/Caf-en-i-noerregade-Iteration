@@ -53,9 +53,9 @@
 }
 
 .reviewRight {
+  position: relative;
   display: flex;
   justify-content: right;
-  position: relative;
 }
 
 .reviewBubbleRight {
@@ -72,9 +72,9 @@
 }
 
 .reviewLeft {
+  position: relative;
   display: flex;
   justify-content: left;
-  position: relative;
 }
 
 .reviewBubbleLeft {
@@ -89,6 +89,8 @@
   left: 20px;
   width: 60vw;
 }
+
+
 
 /*  */
 /* MenuKort */
