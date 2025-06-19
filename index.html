@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="da">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,7 +10,10 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     />
     <script src="./assets/js/navMenu.js" defer></script>
-    <meta name="Forside" content="Velkommen til Caféen i Nørregade en socialøkonomisk café i Aalborg med kaffe, kaos og kærlighed. Oplev hjemmelavet mad, fællesskab og bæredygtighed." />
+    <meta
+      name="Forside"
+      content="Velkommen til Caféen i Nørregade en socialøkonomisk café i Aalborg med kaffe, kaos og kærlighed. Oplev hjemmelavet mad, fællesskab og bæredygtighed."
+    />
   </head>
   <body>
     <header>
@@ -56,6 +59,7 @@
           </li>
         </ul>
       </nav>
+
       <!-- Mobile Navbar -->
       <nav class="navbar-mobile">
         <a class="logo" href="./index.html">
@@ -69,32 +73,48 @@
         <button class="menuButton">
           <i class="fa-solid fa-bars"></i>
         </button>
+
         <ul class="menuContainer">
           <li><a href="./index.html">Forside</a></li>
           <li><a href="./menukort.html">Menu</a></li>
           <li><a href="./social.html">Social Ansvar</a></li>
 
-          <details>
-            <summary>Mad Med Omtanke</summary>
-            <li><a href="./madMedKaerlighed.html">Mad Med Kærlighed</a></li>
-            <li><a href="./leverandør.html">Leverandør</a></li>
-          </details>
+          <li>
+            <details>
+              <summary>Mad Med Omtanke</summary>
+              <ul>
+                <li><a href="./madMedKaerlighed.html">Mad Med Kærlighed</a></li>
+                <li><a href="./leverandør.html">Leverandør</a></li>
+              </ul>
+            </details>
+          </li>
 
-          <details>
-            <summary>Booking</summary>
-            <li><a href="./arrangmenter.html">Arrangementer</a></li>
-            <li><a href="./firmaaftaler.html">Firmaaftaler</a></li>
-          </details>
+          <li>
+            <details>
+              <summary>Booking</summary>
+              <ul>
+                <li><a href="./arrangmenter.html">Arrangementer</a></li>
+                <li><a href="./firmaaftaler.html">Firmaaftaler</a></li>
+              </ul>
+            </details>
+          </li>
 
-          <details>
-            <summary>Om Os</summary>
-            <li><a href="./hvemErVi.html">Hvem er vi</a></li>
-            <li><a href="./kontakt.html">Kontakt</a></li>
-            <li><a href="./blogs.html">Blogs</a></li>
-          </details>
+          <li>
+            <details>
+              <summary>Om Os</summary>
+              <ul>
+                <li><a href="./hvemErVi.html">Hvem er vi</a></li>
+                <li><a href="./kontakt.html">Kontakt</a></li>
+                <li><a href="./blogs.html">Blogs</a></li>
+              </ul>
+            </details>
+          </li>
         </ul>
+
         <div class="menuOnActiveBlur"></div>
       </nav>
+
+      <!-- Hero Section -->
       <section class="heroForside text-center">
         <div class="h1ogP">
           <h1>Caféen i Nørregade</h1>
@@ -106,6 +126,7 @@
         />
       </section>
     </header>
+
     <main class="mainForside main144">
       <section class="velkommenForside">
         <h2>Velkommen til Caféen i Nørregade</h2>
@@ -157,99 +178,117 @@
         </p>
         <p>Vi glæder os til at byde dig velkommen <br />Pernille & Pia</p>
       </section>
-    
-        <div class="menuCardForsideContent">
-        <section class="menuCard">
-        <a href="./menukort.html">
-          <img
-            class="menuCardForsideImg"
-            src="./assets/img/Mad2.webp"
-            alt="Billede af sandwich" 
-            loading="lazy"
-          /> 
-        </a>
-        <div class="navigationMad">
-          <h2>Vores mad med omtanke for maven</h2>
-          <p>
-            Bæredygtighed i vores køkken er ingen undtagelse. Nøje udvalgt
-            råvarer, lækre kaffevariationer fra Guatemala samt frisk- og
-            hjemmelavet ingredienser.
-          </p>
-          <p><strong>*Vi tilbyder 15% studierabat</strong></p>
-          <button><a href="./menukort.html">Se vores menu</a></button>
+
+      <div class="menuCardForsideContent">
+        <section>
+          <div class="menuCard">
+            <a href="./menukort.html">
+              <img
+                class="menuCardForsideImg"
+                src="./assets/img/Mad2.webp"
+                alt="Billede af sandwich"
+                loading="lazy"
+              />
+            </a>
+            <div class="navigationMad">
+              <h2>Vores mad med omtanke for maven</h2>
+              <p>
+                Bæredygtighed i vores køkken er ingen undtagelse. Nøje udvalgt
+                råvarer, lækre kaffevariationer fra Guatemala samt frisk- og
+                hjemmelavet ingredienser.
+              </p>
+              <p><strong>*Vi tilbyder 15% studierabat</strong></p>
+              <button><a href="./menukort.html">Se vores menu</a></button>
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </div>
       <section class="fepForside">
         <div class="fep2Navigation">
-        <article class="fepSocialVirksomhed container borderRadius">
-          <img src="./assets/img/Happy-couple-of-friends-talking-at-coffee-shop-and-conversation.webp" alt="Billede af med 2 venner"
-          loading="lazy" />
-          <h2>Social virksomhed</h2>
-          <p>
-            Vi er en cafe med et formål, en god kop kaffe er starten på noget
-            større. Lær mere om social virksomhed
-          </p>
-          <a href="./social.html"><button>Læs om vores mål</button></a>
-        </article>
-        <article class="fepBæredygtighed container borderRadius">
-          <img src="./assets/img/Mad1.webp" alt="Billede af mad"
-          loading="lazy" />
-          <h2>Vi går ind for bæredygtighed</h2>
-          <p>
-            Vores køkken serverer jer friske råvarer, hjemmelavet ingredienser
-            og noget til at slukke tørsten produceret med omtanke for klimaet.
-          </p>
-          <a href="./madMedKaerlighed.html"
-            ><button>Vores bæredygtighed</button></a
-          >
-        </article>
+          <article class="fepSocialVirksomhed container borderRadius">
+            <img
+              src="./assets/img/Happy-couple-of-friends-talking-at-coffee-shop-and-conversation.webp"
+              alt="Billede af med 2 venner"
+              loading="lazy"
+            />
+            <h2>Social virksomhed</h2>
+            <p>
+              Vi er en cafe med et formål, en god kop kaffe er starten på noget
+              større. Lær mere om social virksomhed
+            </p>
+            <a href="./social.html"><button>Læs om vores mål</button></a>
+          </article>
+          <article class="fepBæredygtighed container borderRadius">
+            <img
+              src="./assets/img/Mad1.webp"
+              alt="Billede af mad"
+              loading="lazy"
+            />
+            <h2>Vi går ind for bæredygtighed</h2>
+            <p>
+              Vores køkken serverer jer friske råvarer, hjemmelavet ingredienser
+              og noget til at slukke tørsten produceret med omtanke for klimaet.
+            </p>
+            <a href="./madMedKaerlighed.html"
+              ><button>Vores bæredygtighed</button></a
+            >
+          </article>
         </div>
         <div>
-        <article class="fepArrangementer container borderRadius">
-          <img src="./assets/img/Arrangementer.webp" alt="Arrangementer i Caféen"
-          loading="lazy" />
-          <h2>Arrangementer</h2>
-          <p>Vi sørger for maden til dit næste arrangement</p>
-          <a href="./arrangmenter.html"
-            ><button class="fepArrangementer-button">Book til arrangement</button></a
-          >
-        </article>
-        <article class="fepFirmaaftaler container borderRadius">
-          <img src="./assets/img/Firmaaftale.webp" alt="Firmaaftale"
-          loading="lazy" />
-          <h2>Firmaaftaler</h2>
-          <p>
-            Skal der sørges for forplejning til dit firma så står vores køkken
-            klar til at servere
-          </p>
-          <a href="./firmaaftaler.html"><button>Book til dit firma</button></a>
-        </article>
-      </div>
+          <article class="fepArrangementer container borderRadius">
+            <img
+              src="./assets/img/Arrangementer.webp"
+              alt="Arrangementer i Caféen"
+              loading="lazy"
+            />
+            <h2>Arrangementer</h2>
+            <p>Vi sørger for maden til dit næste arrangement</p>
+            <a href="./arrangmenter.html"
+              ><button class="fepArrangementer-button">
+                Book til arrangement
+              </button></a
+            >
+          </article>
+          <article class="fepFirmaaftaler container borderRadius">
+            <img
+              src="./assets/img/Firmaaftale.webp"
+              alt="2 Mænd der giver hånden til en aftale"
+              loading="lazy"
+            />
+            <h2>Firmaaftaler</h2>
+            <p>
+              Skal der sørges for forplejning til dit firma så står vores køkken
+              klar til at servere
+            </p>
+            <a href="./firmaaftaler.html"
+              ><button>Book til dit firma</button></a
+            >
+          </article>
+        </div>
       </section>
       <section class="testimonials">
         <div class="reviewLeft">
-            <img
+          <img
             class="reviewBubbleLeft"
             src="./assets/img/ChatBubbleGREENSVG.svg"
             alt="Chat bubble reviews"
             loading="lazy"
-            />
-            <div class="reviewContentLeft">
-              <p class="reviewText">
-                Lækker mad til billige penge. Service og maden er helt i top.
-                <br />
-                -Marianne
-              </p>
-              <div class="stars">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-              </div>
+          />
+          <div class="reviewContentLeft">
+            <p class="reviewText">
+              Lækker mad til billige penge. Service og maden er helt i top.
+              <br />
+              -Marianne
+            </p>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
             </div>
           </div>
+        </div>
         <div class="reviewRight">
           <img
             class="reviewBubbleRight"

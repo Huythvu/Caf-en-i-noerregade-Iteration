@@ -95,6 +95,10 @@ iframe {
   object-fit: cover;
 }
 
+ul {
+  list-style: none;
+}
+
 
 /*  */
 /* Utility classes */
