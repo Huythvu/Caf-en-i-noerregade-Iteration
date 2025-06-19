@@ -150,6 +150,15 @@
   justify-content: center;
 }
 
+.cafe-historier {
+  display: flex;
+  justify-content: center;
+}
+.cafe-historier a{
+  display: inline-block;
+  /* width: fit-content; */
+}
+
 
 /*  */
 /* Mad med kærlighed */
