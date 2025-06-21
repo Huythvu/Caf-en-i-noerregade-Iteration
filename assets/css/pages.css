@@ -368,3 +368,7 @@ footer {
 .socials .icons{
   font-size: 3rem;
 }
+
+.drikkeButton, .madButton {
+  width: 170px;
+}

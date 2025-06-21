@@ -99,6 +99,10 @@ ul {
   list-style: none;
 }
 
+p {
+  text-align: justify;
+}
+
 
 /*  */
 /* Utility classes */
