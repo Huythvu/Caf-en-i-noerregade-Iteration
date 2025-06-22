@@ -103,6 +103,10 @@ p {
   text-align: justify;
 }
 
+.container{
+  width: 100%;
+}
+
 
 /*  */
 /* Utility classes */

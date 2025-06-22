@@ -109,16 +109,20 @@
 .foodTitleTags {
   display: flex;
 }
-.bæredygtig-mad{
-  aspect-ratio: 1.5/1;
-  object-fit: cover;
-}
+
 /* Drikke og mad sektion */
 .menu-top img {
-  aspect-ratio: 2/1;
+  aspect-ratio: 2.5/1;
   object-fit: cover;
-  object-position: 0% 85%;
   display: block;
+}
+
+.madRetHeroImg{
+  object-position: 0% 85%;
+}
+
+.drikkeVarerHeroImg{
+  object-position: 0% 58%;
 }
 
 .menu-toggle {
@@ -134,6 +138,10 @@
 }
 .h1-spisekort, .h1-drikkekort{
   margin-top: 16px;
+}
+
+.category h2{
+  color: var(--color-dark-green);
 }
 
 /*  */

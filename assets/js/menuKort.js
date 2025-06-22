@@ -232,6 +232,9 @@ function visMad() {
   document.querySelector(".h1-spisekort").style.display = "block";
   document.querySelector(".h1-drikkekort").style.display = "none";
 
+  document.querySelector(".madRetHeroImg").style.display = "block";
+  document.querySelector(".drikkeVarerHeroImg").style.display = "none";
+
   madButton.classList.add("animationActive");
   drikkeButton.classList.remove("animationActive");
 }
@@ -244,6 +247,9 @@ function visDrikke() {
   // Vis/skjul overskrifter
   document.querySelector(".h1-spisekort").style.display = "none";
   document.querySelector(".h1-drikkekort").style.display = "block";
+
+  document.querySelector(".madRetHeroImg").style.display = "none";
+  document.querySelector(".drikkeVarerHeroImg").style.display = "block";
 
   drikkeButton.classList.add("animationActive");
   madButton.classList.remove("animationActive");
