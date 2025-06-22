@@ -14,7 +14,7 @@ async function fetchBlogs() {
     blogIndlaeg.forEach((post) => {
       blogContainer.innerHTML += `
         <article class="blog-post borderRadius">        
-        <a href="./blogIndlæg.html">
+        <a href="./blogIndlaegIteration.html?slug=${post.slug}">
         <img  src="${post.acf.billede.sizes.medium}" alt="">
         <div class="blog-content">
         <p>${post.acf["kategori-label"]} </p>

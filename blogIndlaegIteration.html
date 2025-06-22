@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blogs</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <script src="./assets/js/blogIndlaegIteration.js" defer></script>
+    <!-- <script src="./assets/js/blog.js" defer></script> -->
+    <!-- <script src="./assets/js/navMenu.js" defer></script> -->
+    <meta
+      name="Blogs"
+      content="Læs de seneste nyheder og blogindlæg fra Caféen i Nørregade. Følg med i hverdagen, arrangementer og de unges udvikling i vores socialøkonomiske café."
+    />
+  </head>
+
+  <header>
+        <!-- Desktop Navbar -->
+        <nav class="navbar-desktop">
+          <a class="logo" href="./index.html">
+            <span class="logoText">Caféen <br />i Nørregade</span>
+            <img
+              class="logoSVG"
+              src="./assets/img/Logo-Coffee-Heart.svg"
+              alt="Logo Coffee Heart"
+            />
+          </a>
+
+          <ul class="desktop-menu">
+            <li><a href="./index.html">Forside</a></li>
+            <li><a href="./menukort.html">Menu</a></li>
+            <li><a href="./social.html">Social Ansvar</a></li>
+
+            <li class="dropdown">
+              <span class="dropdown-title">Mad med omtanke</span>
+              <ul class="dropdown-menu">
+                <li><a href="./madMedKaerlighed.html">Mad Med Kærlighed</a></li>
+                <li><a href="./leverandør.html">Leverandør</a></li>
+              </ul>
+            </li>
+
+            <li class="dropdown">
+              <span class="dropdown-title">Booking</span>
+              <ul class="dropdown-menu">
+                <li><a href="./arrangmenter.html">Arrangementer</a></li>
+                <li><a href="./firmaaftaler.html">Firmaaftaler</a></li>
+              </ul>
+            </li>
+
+            <li class="dropdown">
+              <span class="dropdown-title">Om os</span>
+              <ul class="dropdown-menu">
+                <li><a href="./hvemErVi.html">Hvem Er Vi</a></li>
+                <li><a href="./kontakt.html">Kontakt</a></li>
+                <li><a href="./blogs.html">Blogs</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- Mobile Navbar -->
+        <nav class="navbar-mobile">
+          <a class="logo" href="./index.html">
+            <span class="logoText">Caféen <br />i Nørregade</span>
+            <img
+              class="logoSVG"
+              src="./assets/img/Logo-Coffee-Heart.svg"
+              alt="Logo Coffee Heart"
+            />
+          </a>
+          <button class="menuButton">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+
+          <ul class="menuContainer">
+            <li><a href="./index.html">Forside</a></li>
+            <li><a href="./menukort.html">Menu</a></li>
+            <li><a href="./social.html">Social Ansvar</a></li>
+
+            <li>
+              <details>
+                <summary>Mad Med Omtanke</summary>
+                <ul>
+                  <li>
+                    <a href="./madMedKaerlighed.html">Mad Med Kærlighed</a>
+                  </li>
+                  <li><a href="./leverandør.html">Leverandør</a></li>
+                </ul>
+              </details>
+            </li>
+
+            <li>
+              <details>
+                <summary>Booking</summary>
+                <ul>
+                  <li><a href="./arrangmenter.html">Arrangementer</a></li>
+                  <li><a href="./firmaaftaler.html">Firmaaftaler</a></li>
+                </ul>
+              </details>
+            </li>
+
+            <li>
+              <details>
+                <summary>Om Os</summary>
+                <ul>
+                  <li><a href="./hvemErVi.html">Hvem er vi</a></li>
+                  <li><a href="./kontakt.html">Kontakt</a></li>
+                  <li><a href="./blogs.html">Blogs</a></li>
+                </ul>
+              </details>
+            </li>
+          </ul>
+          <div class="menuOnActiveBlur"></div>
+        </nav>
+    </header>
+
+  <body>
+    <div class="blogIndlaegIteration">
+    </div>
+  </body>
+</html>
